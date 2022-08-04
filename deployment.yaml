@@ -16,6 +16,6 @@ spec:
         - name: ''
       containers:
         - name: my-jenkins
-          image: jenkins_push:${dockerBuildTag}
+          image: jenkins_push:0.6
           ports:
             - containerPort: 8080
